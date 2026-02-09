@@ -1,0 +1,13 @@
+#custom-cursor,
+#custom-cursor-dot {
+  pointer-events: none;
+  will-change: transform;
+}
+
+#custom-cursor {
+  transition: transform 0.15s ease;
+}
+
+.cursor-click {
+  transform: scale(0.75) !important;
+}
